@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo1.png';
 import './App.css';
 
 function App() {
@@ -11,11 +11,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://discord.gg/nh46kvc3Fa"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Discord Community
         </a>
       </header>
     </div>
