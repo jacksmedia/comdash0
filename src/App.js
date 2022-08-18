@@ -1,14 +1,25 @@
-import logo from './Comdash-Logo-White.png';
+import logo from './Combased-Logo-White-Full.png';
+import styled from 'styled-components';
 import './App.css';
+
+const Title = styled.h1`
+  font-size: 0.85em;
+  text-align: left;
+  color: #0f6;
+`;
+
+const Wrapper = styled.section`
+  padding: 0.9em;
+`;
 
 function App() {
   return (
     <div className="App">
       <header className="App-header container-sm p-3">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          ComDash - The Web3 Swiss-army Dashboard on The Elrond Blockchain
-        </p>
+        <Wrapper>
+          <Title>ComDash - The Web3 Swiss-army Dashboard on The Elrond Blockchain</Title>
+        </Wrapper>
         <a
           className="App-link"
           href="https://discord.gg/nh46kvc3Fa"
