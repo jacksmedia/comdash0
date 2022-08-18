@@ -1,11 +1,10 @@
 import logo from './Combased-Logo-White-Full.png';
 import styled from 'styled-components';
-import './App.css';
+import './App.scss';
 
 const Title = styled.h1`
   font-size: 0.85em;
   text-align: left;
-  color: #0f6;
 `;
 
 const Wrapper = styled.section`
