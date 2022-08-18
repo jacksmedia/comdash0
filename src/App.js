@@ -7,6 +7,7 @@ const Title = styled.h1`
   text-align: left;
 `;
 const Btn = styled.button`
+  background: #50CC89;
   padding: 1.3em;
   border-radius: 0.5rem;
   font-size: 10px;
@@ -23,7 +24,7 @@ const ThinLine = styled.hr`
   width: 15vw;
 `;
 const LandingPagePanel = styled.div`
-  background: navy;
+  background: #1E1E2D;
   padding: 1em;
   border-radius: 0.5rem;
   height: 55vh;
